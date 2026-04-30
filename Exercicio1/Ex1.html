@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Exercícios</title>
+</head>
+
+<body>
+  
+<nav>
+    <header>
+    <h1>Lista de Exercícios #1</h1> 
+    <br>_______________________________________________________________
+    <h2>Exercícios de HTML e CSS</h2>
+    <a href="#form"> Formulario </a>
+    <a href="#galeria">Galeria </a>
+    <a href="#lista">Lista </a>
+    <a href="#video">Video </a>
+    <a href="#mp3">MP3 </a>
+    <a href="#tabela">Tabela </a><br>
+<br>
+    </header> 
+
+
+<section id="formulario" class="formulario">
+<h1>Exemplo de Formulario </h1>
+    <div id = "form">
+        <h2> Candidate-se para essa vaga:</h2>
+        <form action="">
+        <label for="nome">Nome Social:</label>
+        <input type="text" name="nome" id="nome" default="Digite seu nome aqui...">
+        <br>
+        <label for="cpf">CPF:</label>
+        <input type="number" name="cpf" id="cpf" default="00000000000">
+        <br>
+        <label for="data">Data de Nascimento:</label>
+        <input type="date" name="data" id="data">
+        <br>
+
+        <label for="genero">Gênero:</label>
+        <input type="radio" name="genero" id="masculino">
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero" id="feminino">
+        <label for="feminino">Feminino</label>
+        <input type="radio" name="genero" id="outro">
+        <label for="outro">Outro</label>
+        <br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="curriculo">Curriculum Vitae:</label>
+        <input type="file" name="curriculo" id="curriculo" accept=".pdf, .doc, .docx">   
+        <br> 
+        <label for="proficiencia">Proficiência em HTML:</label>
+        <input type="range" name="proficiencia" id="proficiencia" min="0" max="4" step="1">
+
+
+        <br><label for="ling">Qual sua linguagem preferida?</label>
+        <select id="ling" name="ling">
+        <option value="javascript">JavaScript</option>
+        <option value="python">Python</option>
+        <option value="java">Java</option>
+        <option value="csharp">C#</option>  </select>
+        <br> 
+        <label for="comentarios">Que tal nos contar um pouco mais de sua história profissional?</label>
+    <textarea name="comentarios" id="comentarios" rows="4" cols="50" placeholder="Escreva de novo tudo que já estava escrito no seu currículo, já que nem vamos ler ele. "></textarea>
+ 
+
+        <br><input type="checkbox" name="checkbox" id="checkbox" default = > <label for="checkbox">Concordo com todo e qualquer termo, todos eles.</label>
+        <br><input type="checkbox" name="checkbox" id="checkbox2"> <label for="checkbox2">Gostaria de receber bastante spam, por favor!.</label>
+        <br>
+        <input type = "submit" value="Enviar">
+        <input type = "reset" value="Limpar">
+
+
+</select>
+        </form>
+    </div>
+</section>
+
+
+    <section id="galeria" class="galeria">
+    <h1>Redimensionamento de Imagens</h1>
+      <div class="itensGaleria">
+        <img src="assets/github.png" alt="Imagem 1" width="50" height="50">
+        <img src="assets/linkedin.png" alt="Imagem 2" width="50" height="50">
+              <img src="assets/github.png" alt="Imagem 1" width="50" height="50">
+        <img src="assets/linkedin.png" alt="Imagem 2" width="50" height="50">
+              <img src="assets/github.png" alt="Imagem 1" width="50" height="50">
+        <img src="assets/linkedin.png" alt="Imagem 2" width="50" height="50">
+              <img src="assets/github.png" alt="Imagem 1" width="50" height="50">
+        <img src="assets/linkedin.png" alt="Imagem 2" width="50" height="50">
+        <br>
+        <img src="assets/github.png" alt="Imagem 1" width="150" height="150">
+        <img src="assets/linkedin.png" alt="Imagem 2" width="150" height="150">
+        <img src="assets/github.png" alt="Imagem 3" width="150" height="150">
+        <img src="assets/linkedin.png" alt="Imagem 4" width="150" height="150">
+        <img src="assets/github.png" alt="Imagem 3" width="150" height="150">
+        <img src="assets/linkedin.png" alt="Imagem 4" width="150" height="150">
+                <img src="assets/github.png" alt="Imagem 3" width="300" height="300">
+ 
+
+      </div>
+    </section>
+
+
+     <section id="lista" class="lista">
+        <h1>Exemplos de listas</h1>
+        <h2>Lista ordenada:</h2>
+        <ol>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+
+        <h2>Lista não ordenada:</h2>
+        <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>Item C</li>
+        </ul>
+    </section>
+
+         <section id="video" class="video">
+        <h1>Exemplo de vídeo incorporado:</h1>
+        <p>Esse exercício só foi possivel graças a:</p>
+        <iframe width="420" height="315"
+src="https://www.youtube.com/embed/oVblgq5hQeQ">
+</iframe>
+    </section>
+
+    <section id="mp3" class="mp3">
+        <h1>Exemplo de player de música:</h1>
+        <audio controls>
+            <source src="assets2/mp3.mp3" type="audio/mp3">
+            Seu navegador não suporta o elemento de áudio.
+        </audio>
+        
+    </section>
+
+
+
+    <section id="tabela" class="tabela">
+        <h1>Exemplo de tabela</h1>
+        <table border="6">
+             <thead>
+      <th>Nome</th>
+        <th>CPF</th>
+        <th>Cargo</th>
+    </tr>
+  </thead>
+  <tbody>
+      <td>Fulana</td>
+        <td>123456789</td>
+        <td>Secretaria</td>
+
+
+    <tr>
+      <td>Beutrana</td>
+      <td>98657612</td>
+        <td>CEO</td>
+
+    </tr>
+      <td>Ciclano</td>
+      <td>98657432</td>
+    <td>Faxineiro</td>
+    </tr>
+
+  </tbody>
+</table>
+    
+       
+        
+    </section>
+
+      
+
+
+
+    <footer>
+            <p><b>Realizado pelo aluno:</b> Bruno Passamani Mendonça  <a href=" https://www.linkedin.com/in/bruno-passamani-a5b46637b/" target="_blank">
+        <img src="assets/linkedin.png" alt="Link para LinkedIn" width="20" height="20"></a>
+    <a href=" https://github.com/bruno-pmendonca" target="_blank">
+        <img src="assets/github.png" alt="Link para GitHub" width="20" height="20"> </a>
+    </p>
+    </footer>
+
+
+
+
+
+
+</nav>  
+
+</body>
+
+</html>
