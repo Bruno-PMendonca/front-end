@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Exercícios</title>
+    <link rel="icon" type="image/png" href="assets/icon.png">
+    <meta name="description" content="Web site criado com uma prova de HTML e CSS.">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Bruno Passamani Mendonça">
+</head>
+
+<body>
+  
+<nav>
+    <header>
+    <h1>Lista de Exercícios #1</h1> 
+    <br>_______________________________________________________________
+    <h2><a href=Ex1.html> Exercícios HTML e CSS</a> e Prova!</h2>
+    <div id="menu">
+    <a href="#form"> Formulario </a>
+    <a href="#galeria">Galeria </a>
+    <a href="#lista">Lista </a>
+    <a href="#video">Video </a>
+    <a href="#mp3">MP3 </a>
+    <a href="#tabela">Tabela </a><br>
+    <br>
+    </div></header> 
+<div id="prova">
+<section>
+    <h1>Questão 1</h1>
+    <h2>Qual é o resultado no navegador do seguinte código HTML?</h2>
+    <div class="codigocaixa">
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;Teste&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;Olá Mundo!&lt;/p&gt;
+&lt;p&gt;Olá mundo novo!&lt;/p&gt;
+&lt;script&gt;
+document.write("&lt;p&gt;Este é um teste&lt;/p&gt;");
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    </div>
+    <p>A) Três parágrafos exibidos</p>
+    <p>B) Dois parágrafos exibidos</p>
+    <p>C) Um parágrafo exibido</p>
+    <p>D) Erro no console</p>
+</section>
+
+<section>
+    <h1>Questão 2</h1>
+    <h2>Qual é a saída correta para o código abaixo?</h2>
+    <div class="codigocaixa">
+        <pre><code>&lt;a href="https://exemplo.com" target="_self"&gt;Clique Aqui&lt;/a&gt;</code></pre>
+    </div>
+    <p>A) Abre o link em uma nova aba</p>
+    <p>B) Abre o link na mesma aba</p>
+    <p>C) Não funciona, _self é um valor inválido</p>
+    <p>D) Abre o link em uma janela pop-up</p>
+</section>
+
+<section>
+    <h1>Questão 3</h1>
+    <h2>O que acontece com o texto no parágrafo abaixo?</h2>
+    <div class="codigocaixa">
+        <pre><code>&lt;p style="color: red; color: blue;"&gt;Texto Colorido&lt;/p&gt;</code></pre>
+    </div>
+    <p>A) O texto fica vermelho</p>
+    <p>B) O texto fica azul</p>
+    <p>C) O texto fica roxo (mistura de vermelho e azul)</p>
+    <p>D) Erro de sintaxe</p>
+</section>
+
+<section>
+    <h1>Questão 4</h1>
+    <h2>Qual é a saída deste código?</h2>
+    <div class="codigocaixa">
+        <pre><code>console.log(typeof NaN);</code></pre>
+    </div>
+    <p>A) Undefined</p>
+    <p>B) Number</p>
+    <p>C) NaN</p>
+    <p>D) Object</p>
+</section>
+
+<section>
+    <h1>Questão 5</h1>
+    <h2>Qual será a cor final do parágrafo exibido no navegador?</h2>
+    <div class="codigocaixa">
+        <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+p { color: blue; }
+.vermelho { color: red !important; }
+#paragrafo { color: green; }
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p id="paragrafo" class="vermelho"&gt;Texto colorido&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    </div>
+    <p>A) Azul</p>
+    <p>B) Vermelho</p>
+    <p>C) Verde</p>
+    <p>D) Erro no console</p>
+</section>
+
+<section>
+    <h1>Questão 6</h1>
+    <h2>Considere o código abaixo, o que é impresso no console?</h2>
+    <div class="codigocaixa">
+        <pre><code>let a = 10;
+let b = "10";
+console.log(a == b);
+console.log(a === b);</code></pre>
+    </div>
+    <p>A) true, true</p>
+    <p>B) false, false</p>
+    <p>C) true, false</p>
+    <p>D) false, true</p>
+</section>
+
+<section>
+    <h1>Questão 7</h1>
+    <h2>Qual é o valor de result?</h2>
+    <div class="codigocaixa">
+        <pre><code>let result = "5" - 3;</code></pre>
+    </div>
+    <p>A) "2"</p>
+    <p>B) 2</p>
+    <p>C) NaN</p>
+    <p>D) "53"</p>
+</section>
+
+<section>
+    <h1>Questão 8</h1>
+    <h2>Considere o código abaixo, e marque a opção correta.</h2>
+    <div class="codigocaixa">
+        <pre><code>(function() {
+    var a = b = 3;
+})();
+console.log(typeof b);</code></pre>
+    </div>
+    <p>A) Undefined</p>
+    <p>B) Number</p>
+    <p>C) Object</p>
+    <p>D) Erro no console</p>
+</section>
+
+<section>
+    <h1>Questão 9</h1>
+    <h2>Sobre o ECMAScript, qual das afirmações não está correta?</h2>
+    <p>A) ECMAScript é a especificação na qual o Javascript é baseado.</p>
+    <p>B) ES6 introduziu o let e const para declaração de variáveis.</p>
+    <p>C) A versão ES5 introduziu as Arrow Function para simplificar funções anônimas.</p>
+    <p>D) A nomenclatura das versões mudou para ano, como ES2015.</p>
+</section>
+
+<section>
+    <h1>Questão 10</h1>
+    <h2>Qual das seguintes afirmações sobre a comparação de Arrays e Objetos em Javascript é correta?</h2>
+    <p>A) Dois Arrays com os mesmos elementos na mesma ordem são sempre considerados iguais (== ou ===)</p>
+    <p>B) Arrays e Objetos são comparados por valor e não por referência.</p>
+    <p>C) O método JSON.stringify() pode ser usado para comparar o conteúdo de dois Arrays ou Objetos.</p>
+    <p>D) Para comparar dois Arrays, o método .equals() pode ser utilizado nativamente.</p>
+</section>
+
+<section>
+    <h1>Questão 11</h1>
+    <h2>Assinale o método Javascript que retorna o número de caracteres em uma string.</h2>
+    <p>A) Size</p>
+    <p>B) Count</p>
+    <p>C) Length()</p>
+    <p>D) Length</p>
+</section>
+
+<section>
+    <h1>Questão 12</h1>
+    <h2>Atualmente o Javascript é gerenciado pela ES6, e na versão ES6 ocorre uma grande utilização do paradigma funcional através de Arrow Function. Considere a função apresentada a seguir, na forma de escrita tradicional:</h2>
+    <div class="codigocaixa">
+        <pre><code>function somar(a, b) { return a + b }</code></pre>
+    </div>
+    <p>No padrão arrow function, ela seria definida como:</p>
+    <p>A) const somar = (a, b) =&gt; a + b;</p>
+    <p>B) const somar (a, b) =&gt; a + b;</p>
+    <p>C) const somar =&gt; (a, b) = a + b;</p>
+    <p>D) const somar (a, b) = a + b;</p>
+</section>
+
+<section>
+    <h1>Questão 13</h1>
+    <h2>Marcelo precisa escrever uma mensagem dinâmica em uma div, através do Javascript, e sabe que deve ser utilizado DOM, ou Document Object Model, para acessar os elementos de sua página. Considerando que o id utilizado na div é "msgOut", e que a variável msg contém a mensagem, Leandro irá utilizar o comando:</h2>
+    <p>A) Document["msgOut"].innerHTML=msg;</p>
+    <p>B) Document.getElementById("msgOut").innerHTML=msg;</p>
+    <p>C) Document.setHtmlContent("msgOut",msg);</p>
+    <p>D) Document["msgOut"].html(msg);</p>
+</section>
+
+<section>
+    <h1>Questão 14</h1>
+    <h2>Ao longo do aprendizado sobre linguagens de programação, é comum nos depararmos com os termos Java e Javascript, o que gera certa confusão em algumas pessoas em seus estudos, desta forma é importante compreendermos que Java é uma linguagem de programação e Javascript é outra linguagem, ou seja, são distintas. Desta forma, assinale a alternativa que define a principal diferença entre estas linguagens.</h2>
+    <p>A) Java é uma linguagem de programação extremamente robusta e uma das mais utilizadas no mundo, permitindo a implementação de diversos paradigmas de programação, um dos mais utilizados o orientado a objetos, sua grande característica é ser interpretado pelo navegador do cliente, o que promove grande flexibilidade.</p>
+    <p>B) Javascript é usado apenas para criar animações em páginas da web, enquanto Java é usado para criar aplicativos de desktop.</p>
+    <p>C) Java e Javascript são a mesma linguagem nos tempos de hoje, isto por que a Oracle, detém os direitos de ambas as linguagens e em 2023 realizou a fusão de ambas.</p>
+    <p>D) Javascript é uma linguagem interpretada que é executada no navegador do cliente, enquanto Java é uma linguagem compilada que é executada no servidor.</p>
+</section>
+
+<section>
+    <h1>Questão 15</h1>
+    <h2>Um aplicativo construído em linguagens da web, tais como HTML, CSS e Javascript é um aplicativo:</h2>
+    <p>A) Original</p>
+    <p>B) Híbrido</p>
+    <p>C) Padrão</p>
+    <p>D) Nativo</p>
+</section>
+
+<section>
+    <h1>Questão 16</h1>
+    <h2>Julgue o item subsequente, a respeito de HTML5, CSS3 e Javascript. O código Javascript a seguir, ao ser executado, apresenta o valor 3 no console de desenvolvimento do navegador web.</h2>
+    <div class="codigocaixa">
+        <pre><code>&lt;script&gt;
+var cores = ["vermelho", "verde", "azul"]
+console.log(cores.length());
+&lt;/script&gt;</code></pre>
+    </div>
+    <p>A) Certo</p>
+    <p>B) Errado</p>
+</section>
+
+<section>
+    <h1>Questão 17</h1>
+    <h2>No contexto de um script Javascript numa página Web, considere o trecho a seguir.</h2>
+    <div class="codigocaixa">
+        <pre><code>&lt;script&gt;
+function teste(x) { return (x / 2) }
+alert (teste);
+&lt;/script&gt;</code></pre>
+    </div>
+    <p>É correto afirmar sobre esse script que:</p>
+    <p>A) Há um erro de sintaxe que impede sua execução</p>
+    <p>B) Quando executado, exibe a definição da função teste</p>
+    <p>C) Quando executado, exibe o valor 0</p>
+    <p>D) Quando executado, exibe o valor undefined</p>
+</section>
+
+<section>
+    <h1>Questão 18</h1>
+    <h2>Uma caixa de alerta é um recurso muito utilizado em Javascript porque com ele é possível criar caixas de diálogos que aparecem na tela do usuário. A sintaxe correta para exibir uma caixa de diálogo de alerta em Javascript com o texto "Bem-vindo ao Serratec!" é:</h2>
+    <p>A) alert("Bem-vindo ao Serratec!")</p>
+    <p>B) dialog("Bem-vindo ao Serratec!")</p>
+    <p>C) promptBox("Bem-vindo ao Serratec!")</p>
+    <p>D) messageBox("Bem-vindo ao Serratec!")</p>
+</section>
+
+<section>
+    <h1>Questão 19</h1>
+    <h2>Uma forma de retornar, por meio da linguagem Javascript, o conteúdo de texto de um elemento, incluindo todo o espaçamento e tags HTML internas, é utilizar a propriedade:</h2>
+    <p>A) InnerHTML</p>
+    <p>B) InnerText</p>
+    <p>C) TextContent</p>
+    <p>D) TextElement</p>
+</section>
+
+<section>
+    <h1>Questão 20</h1>
+    <h2>Observe os dois comandos de atribuição do Javascript.</h2>
+    <div class="codigocaixa">
+        <pre><code>let X = -100
+X &lt;&lt;= 5</code></pre>
+    </div>
+    <p>Assinale o valor de X após a execução desses comandos.</p>
+    <p>A) 0</p>
+    <p>B) 3</p>
+    <p>C) -100</p>
+    <p>D) -3200</p>
+</section>
+
+</div>
+</body >
+</html>
+
+
+    <footer>
+            <p><b>Realizado pelo aluno:</b> Bruno Passamani Mendonça  <a href=" https://www.linkedin.com/in/bruno-passamani-a5b46637b/" target="_blank">
+        <img src="assets/linkedin.png" alt="Link para LinkedIn" width="20" height="20"></a>
+    <a href=" https://github.com/bruno-pmendonca" target="_blank">
+        <img src="assets/github.png" alt="Link para GitHub" width="20" height="20"> </a>
+    </p>
+    </footer>
+
+
+
+
+
+
+</nav>  
+
+</body>
+
+</html>

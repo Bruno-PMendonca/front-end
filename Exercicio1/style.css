@@ -34,6 +34,9 @@
         margin-left: -40px;
         margin-right: -40px;
         text-align: center;
+        display: flexbox;
+        align-items: center;
+        justify-content: center;
     
        
         h1{margin-bottom:  -30px;
@@ -137,3 +140,31 @@
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         align-items: center;
     }
+
+
+    #galeria{
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+
+
+        max-width: 477px;
+        overflow: auto;
+        resize: both; 
+        overflow: auto; 
+    }
+
+    .codigocaixa{
+        background-color: rgba(224, 224, 224, 0.801);
+        text-align: left;
+        align-items: center;
+        border-color: rgba(27, 32, 26, 0.808);
+        border-width: 3px;
+        border-style: solid;
+     }
+
+     #prova{
+        p{
+        text-align: left;}
+     }
+    
